@@ -13,18 +13,19 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Caio Igor Lelis Silva
+- Matricula: 905761
+- Proposta de projeto escolhida: Lugares e Experiências
+- Breve descrição sobre seu projeto: Site dinâmico para exibição de lugares culturais com páginas home e detalhes.
 
 ## Print da Home-Page
 
 <<  COLOQUE A IMAGEM AQUI >>
+![alt text](image.png)
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  COLOQUE A IMAGEM AQUI >>![alt text](detalhes.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
