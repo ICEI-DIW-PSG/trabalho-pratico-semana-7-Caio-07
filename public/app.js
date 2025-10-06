@@ -1,0 +1,1 @@
+console.log("App carregado - Estrutura básica");

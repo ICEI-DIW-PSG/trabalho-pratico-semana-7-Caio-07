@@ -8,6 +8,91 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    <h1>Olá mundo</h1>
+     <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-landmark"></i>Lugares & Experiências
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Lugares</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        
+        <section>
+            <h2 class="section-title">Bem-vindo à Lugares & Experiências</h2>
+            <p style="text-align: center;">Descubra os melhores museus, exposições e experiências culturais perto de você. Encontre novas aventuras para alimentar sua curiosidade.</p>
+        </section>
+        <section>
+            <h2 class="section-title">Lugares em Destaque</h2>
+            <div class="places">
+                <article class="place-card">
+                    <img src="https://picsum.photos/id/100/600/400" alt="Museu de Arte">
+                    <div class="place-content">
+                        <h3>Museu de Arte Moderna</h3>
+                        <p>Exposições de arte contemporânea e clássica em um espaço arquitetonicamente impressionante.</p>
+                        <a href="#" class="read-more">Saiba mais →</a>
+                    </div>
+                </article>
+                <article class="place-card">
+                    <img src="https://picsum.photos/id/101/600/400" alt="Museu de História">
+                    <div class="place-content">
+                        <h3>Museu de História Natural</h3>
+                        <p>Descubra a história do nosso planeta através de exposições interativas e educativas.</p>
+                        <a href="#" class="read-more">Saiba mais →</a>
+                    </div>
+                </article>
+                
+                <article class="place-card">
+                    <img src="https://picsum.photos/id/102/600/400" alt="Centro Cultural">
+                    <div class="place-content">
+                        <h3>Centro Cultural</h3>
+                        <p>Um espaço vibrante que abriga diversas formas de expressão artística e cultural.</p>
+                        <a href="#" class="read-more">Saiba mais →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="newsletter">
+            <h2 class="section-title" style="color: white;">Fique por Dentro</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Inscreva-se para receber atualizações sobre novos lugares e eventos.</p>
+            <form class="newsletter-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-content">
+            <p>Lugares & Experiências &copy; 2023 - Todos os direitos reservados</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Contato</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer> 
+</body>
+
+</html>
 </body>
 </html>
